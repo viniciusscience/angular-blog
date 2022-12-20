@@ -1,0 +1,31 @@
+.big__card__title > h2{
+  color: white;
+
+  margin-top: 20px;
+  font-size: 30px;
+}
+.big__card__description {
+  margin-top: 10px;
+
+}
+
+.big__card__description >p{
+  color:grey;
+  margin-top: 20px;
+
+}
+.container {
+
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+big-card__image > img {
+  width: 100%;
+  min-width: 500px;
+}
