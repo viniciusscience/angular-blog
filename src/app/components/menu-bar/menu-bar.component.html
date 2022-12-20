@@ -1,7 +1,7 @@
 <div class="container__menu">
   <ul>
-    <li><a href="">Linkedin</a></li>
-    <li><a href="">GitHub</a></li>
-    <li><a href="">Youtube</a></li>
+    <li *ngFor="let item of menu">
+      <a [href]="item.url"> {{ item.nome }} </a>
+    </li>
   </ul>
 </div>
